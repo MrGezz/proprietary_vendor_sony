@@ -101,7 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
     vendor/sony/aoba/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/sony/aoba/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
-    vendor/sony/aoba/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/sony/aoba/proprietary/etc/wifi/calibration:system/etc/wifi/calibration \
     vendor/sony/aoba/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so \
     vendor/sony/aoba/proprietary/lib/hw/gps.msm8660.so:system/lib/hw/gps.msm8660.so \
@@ -195,7 +194,7 @@ PRODUCT_COPY_FILES += \
 # 1_96 has long 'warmup' time for the preview to actually come up
 # FIXME: This blob-mix should do well for now (fast start, 1080p)
 PRODUCT_COPY_FILES += \
-    vendor/sony/aoba/proprietary/lib/cam_0_211/libcald_pal.so:system/lib/libcald_pal.so \
+    vendor/sony/aoba/proprietary/lib/cam_0_211/libcald_pal.so:system/lib/libcald_pal.so
 
 PRODUCT_COPY_FILES += \
     vendor/sony/aoba/proprietary/lib/cam_1_96/liboemcamera.so:system/lib/liboemcamera.so
